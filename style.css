@@ -49,7 +49,7 @@ a {
 }
 /* End Preparation */
 .header{
-  background-color: #656d72;
+  background-color: #979798;
 }
 .main-container {
     width: 1200px;
@@ -102,7 +102,6 @@ a {
 }
 /* header */
 .header-nav{
-  background-color: #656d72;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -130,13 +129,14 @@ a {
 .navbar ul li a{
   color: var(--black-color);
 }
-.access{
-  display: flex;
-  align-items: center;
-  gap: 3rem;
+.sign-in{
+  padding-left: 20px;
 }
-.access a{
-  color: var(--black-color);
+.sign-in,
+.register,
+strong{
+  font-weight: 700;
+  font-size: 1.2rem;
 }
 .menu-icon{
   display: none;
@@ -174,7 +174,8 @@ a {
   display: initial-block;
 }
 .animation_text h3{
-  font-size: 0.9rem;
+  font-size: 1.2rem;
+  font-weight: 700;
   letter-spacing: 10px;
   border-right: 2px solid;
   width: 100%;
@@ -222,6 +223,11 @@ strong{
   background-color: #c5f0ff;
   border-radius: 4rem;
   padding: 2rem;
+}
+.logo-company{
+  display: flex;
+  justify-content: center;
+  
 }
 /* services */
 #services{
@@ -394,11 +400,11 @@ footer p{
   font-size: 42px;
   color: #1500ff;
 }
-.access a:hover{
+/* .access a:hover{
   font-weight: 700;
   color: #1500ff;
   border-radius: 4rem;
   background-color: #ddd;
   padding: 1rem;
   box-shadow: rgb(93, 0, 255) 0px 3px 5px;
-}
+} */
