@@ -112,6 +112,7 @@ a {
 .navbar ul{
   list-style: none;
   display: flex;
+  align-items: center;
   gap: 3rem;
 }
 .mylogo{
@@ -130,15 +131,6 @@ a {
 .navbar ul li a{
   color: var(--black-color);
 }
-.sign-in{
-  padding-left: 20px;
-}
-.sign-in,
-.register,
-strong{
-  font-weight: 700;
-  font-size: 1.2rem;
-}
 .menu-icon{
   display: none;
   top: 33px;
@@ -147,6 +139,7 @@ strong{
   position: fixed;
   color: var(--black-color);
 }
+
 /* section page home */
 #page-home{
   background-image: linear-gradient(90deg, white, #57D6FF);
@@ -401,12 +394,3 @@ footer p{
   font-size: 42px;
   color: #1500ff;
 }
-/* .access a:hover{
-  font-weight: 700;
-  color: #1500ff;
-  border-radius: 4rem;
-  background-color: #ddd;
-  padding: 1rem;
-  box-shadow: rgb(93, 0, 255) 0px 3px 5px;
-} */
-/* Login */
